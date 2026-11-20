@@ -7,7 +7,8 @@
 				"easy": 3,
 				"normal": 4,
 				"hard": 5
-			}
+			},
+			"player": "pico"
 		},
 		"blammed": {
 			"album": "volume1",
@@ -17,7 +18,40 @@
 				"hard": 3,
 				"erect": 11,
 				"nightmare": 12
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "blammed-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "blammed",
+					"variation": "erect",
+					"ratings": {
+						"erect": 11,
+						"nightmare": 12
+					}
+				},
+				{
+					"song": "blammed-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "blammed",
+					"variation": "pico",
+					"ratings": {
+						"easy": 3,
+						"normal": 4,
+						"hard": 5
+					}
+				}
+			]
 		},
 		"blazin": {
 			"album": "volume3",
@@ -25,7 +59,8 @@
 				"easy": 3,
 				"normal": 4,
 				"hard": 5
-			}
+			},
+			"player": "pico"
 		},
 		"bopeebo": {
 			"album": "volume1",
@@ -35,7 +70,40 @@
 				"hard": 2,
 				"erect": 7,
 				"nightmare": 8
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "bopeebo-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "bopeebo",
+					"variation": "erect",
+					"ratings": {
+						"erect": 7,
+						"nightmare": 8
+					}
+				},
+				{
+					"song": "bopeebo-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "bopeebo",
+					"variation": "pico",
+					"ratings": {
+						"easy": 1,
+						"normal": 2,
+						"hard": 3
+					}
+				}
+			]
 		},
 		"cocoa": {
 			"album": "volume1",
@@ -45,7 +113,40 @@
 				"hard": 2,
 				"erect": 7,
 				"nightmare": 8
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "cocoa-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "cocoa",
+					"variation": "erect",
+					"ratings": {
+						"erect": 7,
+						"nightmare": 8
+					}
+				},
+				{
+					"song": "cocoa-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "cocoa",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"dadbattle": {
 			"album": "volume1",
@@ -55,7 +156,40 @@
 				"hard": 3,
 				"erect": 9,
 				"nightmare": 10
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "dad-battle-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "dad-battle",
+					"variation": "erect",
+					"ratings": {
+						"erect": 9,
+						"nightmare": 10
+					}
+				},
+				{
+					"song": "dad-battle-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "dad-battle",
+					"variation": "pico",
+					"ratings": {
+						"easy": 3,
+						"normal": 4,
+						"hard": 5
+					}
+				}
+			]
 		},
 		"darnell": {
 			"album": "volume3",
@@ -65,7 +199,40 @@
 				"hard": 4,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "pico",
+			"variants": [
+				{
+					"song": "darnell-bf",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "bf",
+					"audio": "darnell",
+					"variation": "bf",
+					"ratings": {
+						"easy": 3,
+						"normal": 4,
+						"hard": 5
+					}
+				},
+				{
+					"song": "darnell-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "pico",
+					"audio": "darnell",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				}
+			]
 		},
 		"eggnog": {
 			"album": "volume1",
@@ -75,7 +242,40 @@
 				"hard": 3,
 				"erect": 6,
 				"nightmare": 7
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "eggnog-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "eggnog",
+					"variation": "erect",
+					"ratings": {
+						"erect": 6,
+						"nightmare": 7
+					}
+				},
+				{
+					"song": "eggnog-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "eggnog",
+					"variation": "pico",
+					"ratings": {
+						"easy": 3,
+						"normal": 4,
+						"hard": 5
+					}
+				}
+			]
 		},
 		"fresh": {
 			"album": "volume1",
@@ -85,7 +285,40 @@
 				"hard": 2,
 				"erect": 6,
 				"nightmare": 7
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "fresh-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "fresh",
+					"variation": "erect",
+					"ratings": {
+						"erect": 6,
+						"nightmare": 7
+					}
+				},
+				{
+					"song": "fresh-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "fresh",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"guns": {
 			"album": "volume2",
@@ -93,7 +326,26 @@
 				"easy": 3,
 				"normal": 4,
 				"hard": 5
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "guns-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "guns",
+					"variation": "pico",
+					"ratings": {
+						"easy": 3,
+						"normal": 4,
+						"hard": 5
+					}
+				}
+			]
 		},
 		"high": {
 			"album": "volume1",
@@ -103,7 +355,24 @@
 				"hard": 3,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "high-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "high",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				}
+			]
 		},
 		"litup": {
 			"album": "volume3",
@@ -111,7 +380,26 @@
 				"easy": 2,
 				"normal": 3,
 				"hard": 4
-			}
+			},
+			"player": "pico",
+			"variants": [
+				{
+					"song": "lit-up-bf",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "bf",
+					"audio": "lit-up",
+					"variation": "bf",
+					"ratings": {
+						"easy": 4,
+						"normal": 5,
+						"hard": 6
+					}
+				}
+			]
 		},
 		"milf": {
 			"album": "volume1",
@@ -119,7 +407,8 @@
 				"easy": 2,
 				"normal": 3,
 				"hard": 4
-			}
+			},
+			"player": "bf"
 		},
 		"monster": {
 			"album": "volume2",
@@ -127,7 +416,8 @@
 				"easy": 1,
 				"normal": 2,
 				"hard": 2
-			}
+			},
+			"player": "bf"
 		},
 		"phillynice": {
 			"album": "volume1",
@@ -137,7 +427,40 @@
 				"hard": 3,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "philly-nice-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "philly-nice",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				},
+				{
+					"song": "philly-nice-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "philly-nice",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"pico": {
 			"album": "volume1",
@@ -147,7 +470,40 @@
 				"hard": 2,
 				"erect": 9,
 				"nightmare": 10
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "pico-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "pico",
+					"variation": "erect",
+					"ratings": {
+						"erect": 9,
+						"nightmare": 10
+					}
+				},
+				{
+					"song": "pico-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "pico",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"roses": {
 			"album": "volume2",
@@ -157,7 +513,40 @@
 				"hard": 4,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "roses-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "roses",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				},
+				{
+					"song": "roses-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "roses",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"satinpanties": {
 			"album": "volume1",
@@ -167,7 +556,24 @@
 				"hard": 2,
 				"erect": 11,
 				"nightmare": 12
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "satin-panties-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "satin-panties",
+					"variation": "erect",
+					"ratings": {
+						"erect": 11,
+						"nightmare": 12
+					}
+				}
+			]
 		},
 		"senpai": {
 			"album": "volume2",
@@ -177,7 +583,40 @@
 				"hard": 3,
 				"erect": 6,
 				"nightmare": 7
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "senpai-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "senpai",
+					"variation": "erect",
+					"ratings": {
+						"erect": 6,
+						"nightmare": 7
+					}
+				},
+				{
+					"song": "senpai-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "senpai",
+					"variation": "pico",
+					"ratings": {
+						"easy": 1,
+						"normal": 2,
+						"hard": 3
+					}
+				}
+			]
 		},
 		"south": {
 			"album": "volume1",
@@ -187,7 +626,40 @@
 				"hard": 2,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "south-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "south",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				},
+				{
+					"song": "south-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "south",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"spaghetti": {
 			"album": "spaghetti",
@@ -195,7 +667,8 @@
 				"easy": 2,
 				"normal": 3,
 				"hard": 5
-			}
+			},
+			"player": "bf"
 		},
 		"spookeez": {
 			"album": "volume1",
@@ -205,7 +678,40 @@
 				"hard": 2,
 				"erect": 11,
 				"nightmare": 12
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "spookeez-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "spookeez",
+					"variation": "erect",
+					"ratings": {
+						"erect": 11,
+						"nightmare": 12
+					}
+				},
+				{
+					"song": "spookeez-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "spookeez",
+					"variation": "pico",
+					"ratings": {
+						"easy": 1,
+						"normal": 2,
+						"hard": 3
+					}
+				}
+			]
 		},
 		"stress": {
 			"album": "volume2",
@@ -213,7 +719,26 @@
 				"easy": 3,
 				"normal": 4,
 				"hard": 5
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "stress-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "stress",
+					"variation": "pico",
+					"ratings": {
+						"easy": 4,
+						"normal": 5,
+						"hard": 6
+					}
+				}
+			]
 		},
 		"thorns": {
 			"album": "volume2",
@@ -223,7 +748,24 @@
 				"hard": 4,
 				"erect": 9,
 				"nightmare": 10
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "thorns-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "thorns",
+					"variation": "erect",
+					"ratings": {
+						"erect": 9,
+						"nightmare": 10
+					}
+				}
+			]
 		},
 		"tutorial": {
 			"album": "volume1",
@@ -231,7 +773,8 @@
 				"easy": 0,
 				"normal": 0,
 				"hard": 1
-			}
+			},
+			"player": "bf"
 		},
 		"ugh": {
 			"album": "volume2",
@@ -241,7 +784,40 @@
 				"hard": 4,
 				"erect": 8,
 				"nightmare": 9
-			}
+			},
+			"player": "bf",
+			"variants": [
+				{
+					"song": "ugh-erect",
+					"difficulties": [
+						"Erect",
+						"Nightmare"
+					],
+					"player": "bf",
+					"audio": "ugh",
+					"variation": "erect",
+					"ratings": {
+						"erect": 8,
+						"nightmare": 9
+					}
+				},
+				{
+					"song": "ugh-pico",
+					"difficulties": [
+						"Easy",
+						"Normal",
+						"Hard"
+					],
+					"player": "pico",
+					"audio": "ugh",
+					"variation": "pico",
+					"ratings": {
+						"easy": 2,
+						"normal": 3,
+						"hard": 4
+					}
+				}
+			]
 		},
 		"winterhorrorland": {
 			"album": "volume2",
@@ -249,7 +825,8 @@
 				"easy": 1,
 				"normal": 2,
 				"hard": 2
-			}
+			},
+			"player": "bf"
 		}
 	}
 }
