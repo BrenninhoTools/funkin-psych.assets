@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 9000, "name": "Hey!", "values": ["1", ""]},
+		{"time": 18600, "name": "Hey!", "values": ["1", ""]},
+		{"time": 28200, "name": "Hey!", "values": ["1", ""]},
+		{"time": 37800, "name": "Hey!", "values": ["1", ""]},
+		{"time": 85800, "name": "Hey!", "values": ["1", ""]}
+	]
+}

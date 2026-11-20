@@ -1,0 +1,122 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": "characters/bfCar",
+		"scale": 1,
+		"flipX": true,
+		"antialiasing": true
+	},
+	"position": [0, 350],
+	"camera": [0, 0],
+	"healthIcon": {
+		"id": "bf",
+		"color": "#31B0D1"
+	},
+	"singDuration": 4,
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "BF idle dance",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "BF NOTE LEFT0",
+			"fps": 24,
+			"loop": false,
+			"offset": [12, -6]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "BF NOTE DOWN0",
+			"fps": 24,
+			"loop": false,
+			"offset": [-10, -50]
+		},
+		{
+			"name": "singUP",
+			"prefix": "BF NOTE UP0",
+			"fps": 24,
+			"loop": false,
+			"offset": [-29, 27]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "BF NOTE RIGHT0",
+			"fps": 24,
+			"loop": false,
+			"offset": [-38, -7]
+		},
+		{
+			"name": "singLEFTmiss",
+			"prefix": "BF NOTE LEFT MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [12, 24]
+		},
+		{
+			"name": "singDOWNmiss",
+			"prefix": "BF NOTE DOWN MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [-11, -19]
+		},
+		{
+			"name": "singUPmiss",
+			"prefix": "BF NOTE UP MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [-29, 27]
+		},
+		{
+			"name": "singRIGHTmiss",
+			"prefix": "BF NOTE RIGHT MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [-30, 21]
+		},
+		{
+			"name": "idle-loop",
+			"prefix": "BF idle dance",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, 0],
+			"indices": [10, 11, 12, 13]
+		},
+		{
+			"name": "singLEFT-loop",
+			"prefix": "BF NOTE LEFT0",
+			"fps": 24,
+			"loop": true,
+			"offset": [12, -6],
+			"indices": [12, 13, 14, 15]
+		},
+		{
+			"name": "singRIGHT-loop",
+			"prefix": "BF NOTE RIGHT0",
+			"fps": 24,
+			"loop": true,
+			"offset": [-38, -7],
+			"indices": [58, 59, 60, 61]
+		},
+		{
+			"name": "singUP-loop",
+			"prefix": "BF NOTE UP0",
+			"fps": 24,
+			"loop": true,
+			"offset": [-29, 27],
+			"indices": [11, 12, 13, 14]
+		},
+		{
+			"name": "singDOWN-loop",
+			"prefix": "BF NOTE DOWN0",
+			"fps": 24,
+			"loop": true,
+			"offset": [-10, -50],
+			"indices": [26, 27, 28, 29]
+		}
+	]
+}

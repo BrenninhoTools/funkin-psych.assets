@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 6",
+	"title": "hating simulator ft. moawling",
+	"background": "school",
+	"characters": {"opponent": "senpai", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Senpai", "icon": "senpai-pixel", "color": "#FF78BF"},
+		{"name": "Roses", "icon": "senpai-pixel", "color": "#FF78BF"},
+		{"name": "Thorns", "icon": "spirit-pixel", "color": "#FF78BF"}
+	],
+	"unlock": {
+		"after": "week5"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 62022.4719101124, "name": "Play Animation", "values": ["singDOWN-alt", "dad"]},
+		{"time": 62022.4719101124, "name": "Set Property", "values": ["defaultCamZoom", "1.08"]},
+		{"time": 62022.4719101124, "name": "Camera Follow Pos", "values": ["320", "504"]},
+		{"time": 64719.1011235955, "name": "Camera Follow Pos", "values": ["", ""]},
+		{"time": 64719.1011235955, "name": "Set Property", "values": ["defaultCamZoom", "0.9"]}
+	]
+}

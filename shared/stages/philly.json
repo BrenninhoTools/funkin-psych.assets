@@ -1,0 +1,191 @@
+{
+	"version": "2.0.0",
+	"directory": "week3",
+	"zoom": 1.05,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				770,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"girlfriend": {
+			"position": [
+				400,
+				130
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/philly/city": 3,
+		"images/philly/street": 3,
+		"images/philly/train": 3,
+		"images/philly/window": 3,
+		"images/philly/behindTrain": 2,
+		"images/philly/sky": 2
+	},
+	"editor": {
+		"boyfriend": "bf",
+		"girlfriend": "gf",
+		"opponent": "pico"
+	},
+	"objects": [
+		{
+			"type": "sprite",
+			"name": "sky",
+			"image": "philly/sky",
+			"position": [
+				-100,
+				0
+			],
+			"scroll": [
+				0.1,
+				0.1
+			],
+			"filters": 2
+		},
+		{
+			"type": "sprite",
+			"name": "city",
+			"image": "philly/city",
+			"position": [
+				-255,
+				45
+			],
+			"scroll": [
+				0.3,
+				0.3
+			],
+			"scale": [
+				0.9,
+				0.9
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "window",
+			"image": "philly/win",
+			"position": [
+				-184,
+				155
+			],
+			"scroll": [
+				0.3,
+				0.3
+			],
+			"scale": [
+				0.9,
+				0.9
+			],
+			"alpha": 0
+		},
+		{
+			"type": "sprite",
+			"name": "behindTrain",
+			"image": "philly/behindTrain",
+			"position": [
+				-299,
+				144
+			],
+			"filters": 2
+		},
+		{
+			"type": "phillyTrain",
+			"name": "train",
+			"position": [
+				2000,
+				360
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "street",
+			"image": "philly/street",
+			"position": [
+				-299,
+				144
+			]
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"behaviors": [
+		{
+			"on": "update",
+			"actions": [
+				{
+					"action": "fade",
+					"target": "window",
+					"speed": 1.5
+				}
+			]
+		},
+		{
+			"on": "beat",
+			"every": 4,
+			"actions": [
+				{
+					"action": "color",
+					"target": "window",
+					"colors": [
+						"#31A2FD",
+						"#31FD8C",
+						"#FB33F5",
+						"#FD4531",
+						"#FBA633"
+					]
+				},
+				{
+					"action": "set",
+					"target": "window",
+					"props": {
+						"alpha": 1
+					}
+				}
+			]
+		}
+	],
+	"modules": [
+		{
+			"name": "phillyGlow",
+			"options": {
+				"street": "street",
+				"window": "window",
+				"colors": [
+					"#31A2FD",
+					"#31FD8C",
+					"#FB33F5",
+					"#FD4531",
+					"#FBA633"
+				]
+			}
+		}
+	]
+}

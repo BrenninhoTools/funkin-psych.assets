@@ -1,0 +1,55 @@
+{
+	"version": "2.0.0",
+	"directory": "week4",
+	"zoom": 0.9,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				1030,
+				-120
+			],
+			"camera": [
+				-200,
+				0
+			]
+		},
+		"girlfriend": {
+			"position": [
+				400,
+				130
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/limo/limoDancer": 2,
+		"images/limo/limoDrive": 2,
+		"images/gore/": 2,
+		"images/limo/fastCarLol": 3,
+		"images/limo/limoSunset": 3,
+		"images/limo/bgLimo": 3
+	},
+	"editor": {
+		"boyfriend": "bf-car",
+		"girlfriend": "gf-car",
+		"opponent": "mom-car"
+	},
+	"modules": [
+		"limo"
+	]
+}

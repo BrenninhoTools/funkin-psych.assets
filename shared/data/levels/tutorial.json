@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"name": "Tutorial",
+	"title": "",
+	"background": "stage",
+	"characters": {"opponent": "", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Tutorial", "icon": "gf", "color": "#A5004D"}
+	],
+	"unlock": {
+		"after": "tutorial"
+	}
+}

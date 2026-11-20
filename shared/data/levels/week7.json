@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 7",
+	"title": "Tankman",
+	"background": "tank",
+	"characters": {"opponent": "tankman", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Ugh", "icon": "tankman", "color": "#F6B604"},
+		{"name": "Guns", "icon": "tankman", "color": "#F6B604"},
+		{"name": "Stress", "icon": "tankman", "color": "#F6B604"}
+	],
+	"unlock": {
+		"after": "week6"
+	}
+}

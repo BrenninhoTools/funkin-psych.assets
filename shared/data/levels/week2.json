@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 2",
+	"title": "Spooky Month",
+	"background": "halloween",
+	"characters": {"opponent": "spooky", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Spookeez", "icon": "spooky", "color": "#223344"},
+		{"name": "South", "icon": "spooky", "color": "#223344"},
+		{"name": "Monster", "icon": "monster", "color": "#223344"}
+	],
+	"unlock": {
+		"after": "week1"
+	}
+}

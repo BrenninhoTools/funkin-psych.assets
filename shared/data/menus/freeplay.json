@@ -1,0 +1,27 @@
+{
+	"version": "1.0.0",
+	"sounds": {"scroll": "scrollMenu", "cancel": "cancelMenu"},
+	"background": {"image": "menuDesat", "songColors": true, "color": "#9271FD", "colorTween": 1},
+	"list": {
+		"position": [90, 320],
+		"spacing": [20, 120],
+		"verticalMultiplier": 1.3,
+		"maxWidth": 980,
+		"drawDistance": 4,
+		"lerpSpeed": 9.6,
+		"selectedAlpha": 1,
+		"unselectedAlpha": 0.6,
+		"icons": true
+	},
+	"score": {
+		"font": "vcr.ttf",
+		"size": 32,
+		"position": [896, 5],
+		"alignment": "right",
+		"border": "none",
+		"background": {"color": "#000000", "alpha": 0.6, "height": 66}
+	},
+	"difficulty": {"size": 24, "offset": 36, "format": "< {difficulty} >", "singleFormat": "{difficulty}"},
+	"bottom": {"visible": true, "height": 26, "size": 16, "color": "#000000", "alpha": 0.6, "border": "none"},
+	"sprites": []
+}

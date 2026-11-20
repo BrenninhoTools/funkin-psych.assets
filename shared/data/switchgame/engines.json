@@ -1,0 +1,58 @@
+{
+	"version": "1.0.0",
+	"self": "funkin-psych",
+	"engines": [
+		{
+			"id": "funkin-psych",
+			"name": "Funkin' Psych",
+			"description": "This engine.",
+			"color": "#9271FD",
+			"launch": {
+				"windows": "../Funkin-Psych/PsychEngine.exe",
+				"linux": "../Funkin-Psych/PsychEngine",
+				"mac": "../Funkin-Psych/PsychEngine.app",
+				"android": "me.funkin.psychengine",
+				"ios": "funkinpsych://"
+			}
+		},
+		{
+			"id": "psych",
+			"name": "Psych Engine",
+			"description": "Shadow Mario's Psych Engine with Lua and HScript mods.",
+			"color": "#B26AFF",
+			"launch": {
+				"windows": "../PsychEngine/PsychEngine.exe",
+				"linux": "../PsychEngine/PsychEngine",
+				"mac": "../PsychEngine/PsychEngine.app",
+				"android": "com.shadowmario.psychengine",
+				"ios": "psychengine://"
+			}
+		},
+		{
+			"id": "codename",
+			"name": "Codename Engine",
+			"description": "Codename Engine with HScript scripted mods and addons.",
+			"color": "#3FA7FF",
+			"launch": {
+				"windows": "../CodenameEngine/CodenameEngine.exe",
+				"linux": "../CodenameEngine/CodenameEngine",
+				"mac": "../CodenameEngine/CodenameEngine.app",
+				"android": "com.yoshman29.codenameengine",
+				"ios": "codenameengine://"
+			}
+		},
+		{
+			"id": "vslice",
+			"name": "Friday Night Funkin'",
+			"description": "The base game (V-Slice) with Polymod mods.",
+			"color": "#FD719B",
+			"launch": {
+				"windows": "../Funkin/Funkin.exe",
+				"linux": "../Funkin/Funkin",
+				"mac": "../Funkin/Funkin.app",
+				"android": "me.funkin.fnf",
+				"ios": "funkin://"
+			}
+		}
+	]
+}

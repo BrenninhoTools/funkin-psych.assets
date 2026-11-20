@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 4",
+	"title": "MOMMY MUST MURDER",
+	"background": "limo",
+	"characters": {"opponent": "mom", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Satin Panties", "icon": "mom", "color": "#FC96D7"},
+		{"name": "High", "icon": "mom", "color": "#FC96D7"},
+		{"name": "Milf", "icon": "mom", "color": "#FC96D7"}
+	],
+	"unlock": {
+		"after": "week3"
+	}
+}

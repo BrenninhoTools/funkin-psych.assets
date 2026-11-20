@@ -1,0 +1,7 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 21818.1818181818, "name": "Kill Henchmen", "values": ["", ""]},
+		{"time": 56727.2727272728, "name": "Kill Henchmen", "values": ["", ""]}
+	]
+}

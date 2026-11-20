@@ -1,0 +1,198 @@
+{
+	"version": "2.0.0",
+	"directory": "week6",
+	"zoom": 1.05,
+	"ui": "pixel",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				970,
+				320
+			],
+			"camera": [
+				-100,
+				-100
+			]
+		},
+		"girlfriend": {
+			"position": [
+				580,
+				430
+			],
+			"camera": [
+				0,
+				0
+			],
+			"defaultCharacter": "gf-pixel"
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/weeb/animatedEvilSchool_low": 1,
+		"images/weeb/animatedEvilSchool": 2,
+		"images/weeb/bgGhouls": 2
+	},
+	"editor": {
+		"boyfriend": "bf-pixel",
+		"girlfriend": "gf-pixel",
+		"opponent": "spirit"
+	},
+	"objects": [
+		{
+			"type": "animatedSprite",
+			"name": "evilSchool",
+			"render": {
+				"image": "weeb/animatedEvilSchool",
+				"antialiasing": false
+			},
+			"position": [
+				400,
+				200
+			],
+			"scroll": [
+				0.8,
+				0.9
+			],
+			"scale": [
+				6,
+				6
+			],
+			"updateHitbox": false,
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "background 2",
+					"fps": 24,
+					"loop": true
+				}
+			],
+			"firstAnimation": "idle",
+			"filters": 2
+		},
+		{
+			"type": "sprite",
+			"name": "evilSchoolLow",
+			"render": {
+				"image": "weeb/animatedEvilSchool_low",
+				"antialiasing": false
+			},
+			"position": [
+				400,
+				200
+			],
+			"scroll": [
+				0.8,
+				0.9
+			],
+			"scale": [
+				6,
+				6
+			],
+			"updateHitbox": false,
+			"filters": 1
+		},
+		{
+			"type": "animatedSprite",
+			"name": "bgGhouls",
+			"render": {
+				"image": "weeb/bgGhouls",
+				"antialiasing": false
+			},
+			"position": [
+				-100,
+				190
+			],
+			"scroll": [
+				0.9,
+				0.9
+			],
+			"scale": [
+				6,
+				6
+			],
+			"visible": false,
+			"animations": [
+				{
+					"name": "glitch",
+					"prefix": "BG freaks glitch instance",
+					"fps": 24
+				}
+			],
+			"firstAnimation": "glitch",
+			"filters": 2
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"behaviors": [
+		{
+			"on": "create",
+			"actions": [
+				{
+					"action": "gameOver",
+					"sound": "fnf_loss_sfx-pixel",
+					"loop": "gameOver-pixel",
+					"end": "gameOverEnd-pixel",
+					"character": "bf-pixel-dead"
+				},
+				{
+					"action": "music",
+					"music": "LunchboxScary",
+					"volume": 0.8,
+					"fadeIn": 1
+				}
+			]
+		},
+		{
+			"on": "createPost",
+			"actions": [
+				{
+					"action": "trail",
+					"target": "dad",
+					"length": 4,
+					"frameDelay": 24,
+					"alpha": 0.3,
+					"diff": 0.069
+				}
+			]
+		},
+		{
+			"on": "event",
+			"event": "Trigger BG Ghouls",
+			"actions": [
+				{
+					"action": "play",
+					"target": "bgGhouls",
+					"anim": "glitch",
+					"show": true,
+					"hideOnFinish": true
+				}
+			]
+		}
+	],
+	"modules": [
+		{
+			"name": "schoolDialogue",
+			"options": {
+				"intro": "evil"
+			}
+		}
+	]
+}

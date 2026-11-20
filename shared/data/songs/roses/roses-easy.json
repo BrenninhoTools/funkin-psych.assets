@@ -1,0 +1,243 @@
+{
+	"version": "2.0.0",
+	"song": "Roses",
+	"bpm": 120,
+	"speed": 1.2,
+	"offset": 0,
+	"needsVoices": true,
+	"stage": "school",
+	"characters": {"player": "bf-pixel", "opponent": "senpai-angry", "girlfriend": "gf-pixel"},
+	"sections": [
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 500, "lane": 7}, {"time": 1000, "lane": 4, "length": 250}, {"time": 1375, "lane": 5}, {"time": 1875, "lane": 6}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 2375, "lane": 6}, {"time": 3000, "lane": 7, "length": 250}, {"time": 3375, "lane": 7}, {"time": 3625, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 4500, "lane": 3}, {"time": 5000, "lane": 0, "length": 250}, {"time": 5375, "lane": 1}, {"time": 5875, "lane": 2}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 6375, "lane": 2}, {"time": 7000, "lane": 3, "length": 250}, {"time": 7375, "lane": 3}, {"time": 7625, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 8000, "lane": 6, "length": 125}, {"time": 8500, "lane": 6}, {"time": 8875, "lane": 7, "length": 250}, {"time": 9500, "lane": 4}, {"time": 9875, "lane": 7, "length": 250}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 10250, "lane": 5}, {"time": 10500, "lane": 7}, {"time": 10875, "lane": 7, "length": 250}, {"time": 11250, "lane": 5}, {"time": 11500, "lane": 4}, {"time": 11750, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 12000, "lane": 2, "length": 125}, {"time": 12500, "lane": 2}, {"time": 12875, "lane": 3, "length": 250}, {"time": 13500, "lane": 0}, {"time": 13875, "lane": 3, "length": 250}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 14250, "lane": 1}, {"time": 14500, "lane": 3}, {"time": 14875, "lane": 3, "length": 250}, {"time": 15250, "lane": 1}, {"time": 15500, "lane": 0}, {"time": 15750, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 16500, "lane": 4}, {"time": 17000, "lane": 7, "length": 125}, {"time": 17250, "lane": 5}, {"time": 17500, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 18000, "lane": 4}, {"time": 18250, "lane": 7}, {"time": 18500, "lane": 4}, {"time": 19000, "lane": 7}, {"time": 19250, "lane": 5}, {"time": 19500, "lane": 4}, {"time": 19750, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 20500, "lane": 0}, {"time": 21000, "lane": 3, "length": 125}, {"time": 21250, "lane": 1}, {"time": 21500, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 22000, "lane": 0}, {"time": 22250, "lane": 3}, {"time": 22500, "lane": 0}, {"time": 23000, "lane": 3}, {"time": 23250, "lane": 1}, {"time": 23500, "lane": 0}, {"time": 23750, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 24000, "lane": 6}, {"time": 24625, "lane": 4}, {"time": 25000, "lane": 7}, {"time": 25375, "lane": 7}, {"time": 25625, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 26000, "lane": 6}, {"time": 26625, "lane": 4}, {"time": 27000, "lane": 7}, {"time": 27375, "lane": 7}, {"time": 27625, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 28000, "lane": 2}, {"time": 28625, "lane": 0}, {"time": 29000, "lane": 3}, {"time": 29375, "lane": 3}, {"time": 29625, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 30000, "lane": 2}, {"time": 30625, "lane": 0}, {"time": 31000, "lane": 3}, {"time": 31375, "lane": 3}, {"time": 31625, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 32000, "lane": 4}, {"time": 32500.002, "lane": 7}, {"time": 33000, "lane": 6}, {"time": 33375, "lane": 7}, {"time": 33750, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 34000, "lane": 5}, {"time": 34500, "lane": 7}, {"time": 35000, "lane": 6}, {"time": 35375, "lane": 7}, {"time": 35750, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 36000, "lane": 0}, {"time": 36500, "lane": 3}, {"time": 37000, "lane": 2}, {"time": 37375, "lane": 3}, {"time": 37750, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 38000, "lane": 1}, {"time": 38500, "lane": 3}, {"time": 39000, "lane": 2}, {"time": 39375, "lane": 3}, {"time": 39750, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 40000, "lane": 5}, {"time": 40500, "lane": 6}, {"time": 40750, "lane": 7}, {"time": 41000, "lane": 6}, {"time": 41375, "lane": 5}, {"time": 41750, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 42000, "lane": 5}, {"time": 42500, "lane": 6}, {"time": 42750, "lane": 7}, {"time": 43000, "lane": 6}, {"time": 43375, "lane": 7}, {"time": 43750, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 44000, "lane": 1}, {"time": 44500, "lane": 2}, {"time": 44750, "lane": 3}, {"time": 45000, "lane": 2}, {"time": 45375, "lane": 1}, {"time": 45750, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 46000, "lane": 1}, {"time": 46500, "lane": 2}, {"time": 46750, "lane": 3}, {"time": 47000, "lane": 2}, {"time": 47375, "lane": 3}, {"time": 47750, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 48000, "lane": 6}, {"time": 48625, "lane": 4}, {"time": 48875, "lane": 4}, {"time": 49125, "lane": 7}, {"time": 49375, "lane": 7}, {"time": 49500, "lane": 4, "length": 375}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 50000, "lane": 6}, {"time": 50750, "lane": 6}, {"time": 50875, "lane": 4}, {"time": 51250, "lane": 7}, {"time": 51375, "lane": 4}, {"time": 51500, "lane": 5}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 52000, "lane": 2}, {"time": 52625, "lane": 0}, {"time": 52875, "lane": 0}, {"time": 53125, "lane": 3}, {"time": 53375, "lane": 3}, {"time": 53500, "lane": 0, "length": 375}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 54000, "lane": 2}, {"time": 54750, "lane": 2}, {"time": 54875, "lane": 0}, {"time": 55250, "lane": 3}, {"time": 55375, "lane": 0}, {"time": 55500, "lane": 1}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 56000, "lane": 4}, {"time": 56375, "lane": 4}, {"time": 56500, "lane": 7}, {"time": 57000, "lane": 4}, {"time": 57375, "lane": 4}, {"time": 57500, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 58000, "lane": 4}, {"time": 58375, "lane": 4}, {"time": 58500, "lane": 7}, {"time": 59000, "lane": 4}, {"time": 59375, "lane": 4}, {"time": 59500, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 60000, "lane": 0}, {"time": 60375, "lane": 0}, {"time": 60500, "lane": 3}, {"time": 61000, "lane": 0}, {"time": 61375, "lane": 0}, {"time": 61500, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 62000, "lane": 0}, {"time": 62375, "lane": 0}, {"time": 62500, "lane": 3}, {"time": 63000, "lane": 0}, {"time": 63375, "lane": 0}, {"time": 63500, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 64500.0039, "lane": 7}, {"time": 65000.0039, "lane": 4, "length": 250}, {"time": 65375.0039, "lane": 5}, {"time": 65875, "lane": 6}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 66375, "lane": 6}, {"time": 67000, "lane": 7, "length": 250}, {"time": 67375, "lane": 7}, {"time": 67625, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 68500, "lane": 3}, {"time": 69000, "lane": 0, "length": 250}, {"time": 69375, "lane": 1}, {"time": 69875, "lane": 2}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 70375, "lane": 2}, {"time": 71000, "lane": 3, "length": 250}, {"time": 71375, "lane": 3}, {"time": 71625, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 72000, "lane": 6, "length": 125}, {"time": 72500, "lane": 6}, {"time": 72875, "lane": 7, "length": 250}, {"time": 73500, "lane": 4}, {"time": 73875, "lane": 7, "length": 250}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 74250, "lane": 5}, {"time": 74500, "lane": 7}, {"time": 74875, "lane": 7, "length": 250}, {"time": 75250, "lane": 5}, {"time": 75500, "lane": 4}, {"time": 75750, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 76000, "lane": 2, "length": 125}, {"time": 76500, "lane": 2}, {"time": 76875, "lane": 3, "length": 250}, {"time": 77500, "lane": 0}, {"time": 77875, "lane": 3, "length": 250}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 78250, "lane": 1}, {"time": 78500, "lane": 3}, {"time": 78875, "lane": 3, "length": 250}, {"time": 79250, "lane": 1}, {"time": 79500, "lane": 0}, {"time": 79750, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 80000, "lane": 4}, {"time": 80375, "lane": 4}, {"time": 80500, "lane": 7}, {"time": 81000, "lane": 4}, {"time": 81375, "lane": 4}, {"time": 81500, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 82000, "lane": 4}, {"time": 82375, "lane": 4}, {"time": 82500, "lane": 7}, {"time": 83000, "lane": 4}, {"time": 83375, "lane": 4}, {"time": 83500, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 84000, "lane": 0}, {"time": 84375, "lane": 0}, {"time": 84500, "lane": 3}, {"time": 85000, "lane": 0}, {"time": 85375, "lane": 0}, {"time": 85500, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 86000, "lane": 0}, {"time": 86375, "lane": 0}, {"time": 86500, "lane": 3}, {"time": 87000, "lane": 0}, {"time": 87375, "lane": 0}, {"time": 87500, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		}
+	],
+	"events": []
+}

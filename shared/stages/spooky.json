@@ -1,0 +1,254 @@
+{
+	"version": "2.0.0",
+	"directory": "week2",
+	"zoom": 1.05,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				770,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"girlfriend": {
+			"position": [
+				400,
+				130
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/halloween_bg": 2,
+		"images/halloween_bg_low": 1
+	},
+	"editor": {
+		"boyfriend": "bf",
+		"girlfriend": "gf",
+		"opponent": "spooky"
+	},
+	"objects": [
+		{
+			"type": "animatedSprite",
+			"name": "halloweenBG",
+			"image": "halloween_bg",
+			"position": [
+				-200,
+				-100
+			],
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "halloweem bg0",
+					"fps": 24
+				},
+				{
+					"name": "lightning",
+					"prefix": "halloweem bg lightning strike",
+					"fps": 24
+				}
+			],
+			"firstAnimation": "idle",
+			"filters": 2
+		},
+		{
+			"type": "sprite",
+			"name": "halloweenBGLow",
+			"image": "halloween_bg_low",
+			"position": [
+				-200,
+				-100
+			],
+			"filters": 1
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"type": "square",
+			"name": "halloweenWhite",
+			"position": [
+				-800,
+				-400
+			],
+			"scale": [
+				2560,
+				1440
+			],
+			"scroll": [
+				0,
+				0
+			],
+			"alpha": 0,
+			"blend": "add"
+		}
+	],
+	"behaviors": [
+		{
+			"on": "create",
+			"actions": [
+				{
+					"action": "precache",
+					"sounds": [
+						"thunder_1",
+						"thunder_2"
+					]
+				}
+			]
+		},
+		{
+			"on": "beat",
+			"chance": 10,
+			"initialCooldown": 8,
+			"cooldown": [
+				8,
+				24
+			],
+			"actions": [
+				{
+					"action": "sound",
+					"sounds": [
+						"thunder_1",
+						"thunder_2"
+					]
+				},
+				{
+					"action": "play",
+					"target": "halloweenBG",
+					"anim": "lightning"
+				},
+				{
+					"action": "play",
+					"target": "characters",
+					"anim": "scared"
+				},
+				{
+					"action": "zoom",
+					"game": 0.015,
+					"hud": 0.03,
+					"settle": 0.5
+				},
+				{
+					"action": "set",
+					"target": "halloweenWhite",
+					"props": {
+						"alpha": 0.4
+					},
+					"when": {
+						"flashing": true
+					}
+				},
+				{
+					"action": "tween",
+					"target": "halloweenWhite",
+					"props": {
+						"alpha": 0.5
+					},
+					"duration": 0.075,
+					"when": {
+						"flashing": true
+					}
+				},
+				{
+					"action": "tween",
+					"target": "halloweenWhite",
+					"props": {
+						"alpha": 0
+					},
+					"duration": 0.25,
+					"startDelay": 0.15,
+					"when": {
+						"flashing": true
+					}
+				}
+			]
+		},
+		{
+			"on": "cutscene",
+			"songs": [
+				"monster"
+			],
+			"actions": [
+				{
+					"action": "cutscene"
+				},
+				{
+					"action": "hud",
+					"visible": false
+				},
+				{
+					"action": "focus",
+					"target": "dad",
+					"offset": [
+						150,
+						-100
+					]
+				},
+				{
+					"action": "sound",
+					"sounds": [
+						"thunder_1",
+						"thunder_2"
+					]
+				},
+				{
+					"action": "play",
+					"target": [
+						"gf",
+						"bf"
+					],
+					"anim": "scared"
+				},
+				{
+					"action": "set",
+					"target": "halloweenWhite",
+					"props": {
+						"alpha": 1
+					}
+				},
+				{
+					"action": "tween",
+					"target": "halloweenWhite",
+					"props": {
+						"alpha": 0
+					},
+					"duration": 1,
+					"startDelay": 0.1
+				},
+				{
+					"action": "hud",
+					"visible": true,
+					"delay": 1.1
+				},
+				{
+					"action": "startCountdown",
+					"delay": 1.1
+				}
+			]
+		}
+	]
+}

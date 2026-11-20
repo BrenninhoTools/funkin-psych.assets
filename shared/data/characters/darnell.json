@@ -1,0 +1,121 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": "characters/darnell",
+		"scale": 1,
+		"flipX": false,
+		"antialiasing": true
+	},
+	"position": [0, 200],
+	"camera": [-150, 100],
+	"healthIcon": {
+		"id": "darnell",
+		"color": "#735EB0"
+	},
+	"singDuration": 6.1,
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "Idle",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "Pose Left",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "Pose Down",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, -10]
+		},
+		{
+			"name": "singUP",
+			"prefix": "Pose Up",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "Pose Right",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 2]
+		},
+		{
+			"name": "singLEFT-hold",
+			"prefix": "Left Flame Loop",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singDOWN-hold",
+			"prefix": "Down Flame Loop",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, -10]
+		},
+		{
+			"name": "singUP-hold",
+			"prefix": "Up Flame Loop",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singRIGHT-hold",
+			"prefix": "Right Flame Loop",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, 2]
+		},
+		{
+			"name": "laughCutscene",
+			"prefix": "Laugh",
+			"fps": 24,
+			"loop": false,
+			"offset": [2, 1],
+			"indices": [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
+		},
+		{
+			"name": "lightCan",
+			"prefix": "Light Can0",
+			"fps": 24,
+			"loop": false,
+			"offset": [8, 1]
+		},
+		{
+			"name": "kickCan",
+			"prefix": "Kick Up0",
+			"fps": 24,
+			"loop": false,
+			"offset": [15, 9]
+		},
+		{
+			"name": "kneeCan",
+			"prefix": "Knee Forward0",
+			"fps": 24,
+			"loop": false,
+			"offset": [7, -1]
+		},
+		{
+			"name": "pissed",
+			"prefix": "Gets Pissed0",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		}
+	],
+	"editor": {
+		"isPlayer": false
+	}
+}

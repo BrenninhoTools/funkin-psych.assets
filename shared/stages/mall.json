@@ -1,0 +1,290 @@
+{
+	"version": "2.0.0",
+	"directory": "week5",
+	"zoom": 0.8,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				970,
+				100
+			],
+			"camera": [
+				0,
+				-100
+			]
+		},
+		"girlfriend": {
+			"position": [
+				400,
+				130
+			],
+			"camera": [
+				0,
+				0
+			],
+			"defaultCharacter": "gf-christmas"
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/christmas/bgWalls": 3,
+		"images/christmas/bottomBop": 3,
+		"images/christmas/christmasTree": 3,
+		"images/christmas/fgSnow": 3,
+		"images/christmas/santa": 3,
+		"images/christmas/upperBop": 2,
+		"images/christmas/bgEscalator": 2
+	},
+	"editor": {
+		"boyfriend": "bf-christmas",
+		"girlfriend": "gf-christmas",
+		"opponent": "parents-christmas"
+	},
+	"objects": [
+		{
+			"type": "sprite",
+			"name": "bgWalls",
+			"image": "christmas/bgWalls",
+			"position": [
+				-630,
+				-492
+			],
+			"scroll": [
+				0.2,
+				0.2
+			],
+			"scale": [
+				0.8,
+				0.8
+			]
+		},
+		{
+			"type": "animatedSprite",
+			"name": "upperBoppers",
+			"image": "christmas/upperBop",
+			"position": [
+				-396,
+				-98
+			],
+			"scroll": [
+				0.28,
+				0.28
+			],
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "Upper Crowd Bob",
+					"fps": 24
+				}
+			],
+			"firstAnimation": "idle",
+			"scale": [
+				0.85,
+				0.85
+			],
+			"filters": 2
+		},
+		{
+			"type": "sprite",
+			"name": "bgEscalator",
+			"image": "christmas/bgEscalator",
+			"position": [
+				-1100,
+				-540
+			],
+			"scroll": [
+				0.3,
+				0.3
+			],
+			"scale": [
+				0.9,
+				0.9
+			],
+			"filters": 2
+		},
+		{
+			"type": "sprite",
+			"name": "tree",
+			"image": "christmas/christmasTree",
+			"position": [
+				370,
+				-250
+			],
+			"scroll": [
+				0.4,
+				0.4
+			]
+		},
+		{
+			"type": "mallCrowd",
+			"name": "bottomBoppers",
+			"position": [
+				-300,
+				140
+			],
+			"idle": "Bottom Level Boppers"
+		},
+		{
+			"type": "sprite",
+			"name": "fgSnow",
+			"image": "christmas/fgSnow",
+			"position": [
+				-1150,
+				680
+			]
+		},
+		{
+			"type": "animatedSprite",
+			"name": "santa",
+			"image": "christmas/santa",
+			"position": [
+				-840,
+				150
+			],
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "santa idle in fear",
+					"fps": 24
+				}
+			],
+			"firstAnimation": "idle"
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"type": "square",
+			"name": "blackout",
+			"position": [
+				-1280,
+				-720
+			],
+			"scale": [
+				3840,
+				2160
+			],
+			"scroll": [
+				0,
+				0
+			],
+			"color": "#000000",
+			"visible": false
+		}
+	],
+	"behaviors": [
+		{
+			"on": "create",
+			"actions": [
+				{
+					"action": "precache",
+					"sounds": [
+						"Lights_Shut_off"
+					]
+				}
+			]
+		},
+		{
+			"on": "countdown",
+			"actions": [
+				{
+					"action": "dance",
+					"target": [
+						"upperBoppers",
+						"bottomBoppers",
+						"santa"
+					],
+					"force": true
+				}
+			]
+		},
+		{
+			"on": "beat",
+			"actions": [
+				{
+					"action": "dance",
+					"target": [
+						"upperBoppers",
+						"bottomBoppers",
+						"santa"
+					],
+					"force": true
+				}
+			]
+		},
+		{
+			"on": "event",
+			"event": "Hey!",
+			"value1Not": [
+				"bf",
+				"boyfriend",
+				"0"
+			],
+			"actions": [
+				{
+					"action": "play",
+					"target": "bottomBoppers",
+					"anim": "hey"
+				},
+				{
+					"action": "set",
+					"target": "bottomBoppers",
+					"props": {
+						"heyTimer": "$flValue2"
+					}
+				}
+			]
+		},
+		{
+			"on": "endCutscene",
+			"storyMode": true,
+			"seenCutscene": false,
+			"nextSong": "winter-horrorland",
+			"actions": [
+				{
+					"action": "sound",
+					"sound": "Lights_Shut_off"
+				},
+				{
+					"action": "set",
+					"target": "blackout",
+					"props": {
+						"visible": true
+					}
+				},
+				{
+					"action": "hud",
+					"visible": false
+				},
+				{
+					"action": "cutscene"
+				},
+				{
+					"action": "pause",
+					"allowed": false
+				},
+				{
+					"action": "endSong",
+					"delay": 1.5
+				}
+			]
+		}
+	]
+}

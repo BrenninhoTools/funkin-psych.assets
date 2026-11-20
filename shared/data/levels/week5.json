@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 5",
+	"title": "RED SNOW",
+	"background": "christmas",
+	"characters": {"opponent": "parents-christmas", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Cocoa", "icon": "parents", "color": "#A0D1FF"},
+		{"name": "Eggnog", "icon": "parents", "color": "#A0D1FF"},
+		{"name": "Winter Horrorland", "icon": "monster", "color": "#A0D1FF"}
+	],
+	"unlock": {
+		"after": "week4"
+	}
+}

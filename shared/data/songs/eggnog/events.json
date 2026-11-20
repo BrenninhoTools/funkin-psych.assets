@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 6000, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 9200, "name": "Hey!", "values": ["1", ""]},
+		{"time": 12400, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 15600, "name": "Hey!", "values": ["1", ""]},
+		{"time": 18800, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 22000, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 25200, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 31600, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 34800, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 38000, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 41200, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 47600, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 50800, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 54000, "name": "Hey!", "values": ["1", ""]},
+		{"time": 57200, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 60400, "name": "Hey!", "values": ["1", ""]},
+		{"time": 63600, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 66800, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 70000, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 76400, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 79600, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 82800, "name": "Hey!", "values": ["1", "0.5"]},
+		{"time": 86000, "name": "Hey!", "values": ["1", "0.5"]}
+	]
+}

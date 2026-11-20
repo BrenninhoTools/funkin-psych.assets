@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 3",
+	"title": "PICO",
+	"background": "philly",
+	"characters": {"opponent": "pico", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Pico", "icon": "pico", "color": "#941653"},
+		{"name": "Philly Nice", "icon": "pico", "color": "#941653"},
+		{"name": "Blammed", "icon": "pico", "color": "#941653"}
+	],
+	"unlock": {
+		"after": "week2"
+	}
+}

@@ -1,0 +1,453 @@
+{
+	"version": "2.0.0",
+	"song": "Winter Horrorland",
+	"bpm": 159,
+	"speed": 1.3,
+	"offset": 0,
+	"needsVoices": true,
+	"stage": "mallEvil",
+	"characters": {"player": "bf-christmas", "opponent": "monster-christmas", "girlfriend": "gf-christmas"},
+	"sections": [
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 9433.962, "lane": 4, "length": 283.01886}, {"time": 9811.32, "lane": 6, "length": 283.01886}, {"time": 10188.68, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 10566.0381, "lane": 4, "length": 660.3774}, {"time": 11320.7549, "lane": 6, "length": 566.0377}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 12452.83, "lane": 4, "length": 283.01886}, {"time": 12830.1885, "lane": 6, "length": 283.01886}, {"time": 13207.5469, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 13584.9053, "lane": 5}, {"time": 14150.9434, "lane": 6}, {"time": 14339.623, "lane": 7, "length": 283.01886}, {"time": 14716.9814, "lane": 6, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 15094.34, "lane": 5, "length": 754.717}, {"time": 15471.6982, "lane": 0, "length": 283.01886}, {"time": 15849.0566, "lane": 2, "length": 283.01886}, {"time": 16226.415, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 16603.7734, "lane": 0, "length": 660.3774}, {"time": 17358.49, "lane": 2, "length": 660.3774}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 18490.5664, "lane": 0, "length": 283.01886}, {"time": 18867.9238, "lane": 2, "length": 283.01886}, {"time": 19245.2832, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 19622.64, "lane": 1}, {"time": 20188.68, "lane": 2}, {"time": 20377.36, "lane": 3, "length": 283.01886}, {"time": 20754.7168, "lane": 2, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 21132.0762, "lane": 5, "length": 283.01886}, {"time": 21132.0762, "lane": 1, "length": 754.717}, {"time": 21509.4336, "lane": 7, "length": 283.01886}, {"time": 21886.793, "lane": 6, "length": 283.01886}, {"time": 22264.15, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 22641.51, "lane": 5, "length": 471.69812}, {"time": 23207.5469, "lane": 4}, {"time": 23301.8867, "lane": 6}, {"time": 23396.2266, "lane": 4}, {"time": 23584.9063, "lane": 7}, {"time": 23773.584, "lane": 4}, {"time": 23962.2637, "lane": 5}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 24150.9434, "lane": 7, "length": 283.01886}, {"time": 24528.3027, "lane": 6}, {"time": 24716.98, "lane": 4}, {"time": 24905.66, "lane": 6}, {"time": 25094.34, "lane": 4}, {"time": 25283.02, "lane": 6}, {"time": 25471.6973, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 25660.377, "lane": 5, "length": 471.69812}, {"time": 26226.416, "lane": 6}, {"time": 26415.0938, "lane": 7}, {"time": 26603.7734, "lane": 6}, {"time": 26792.4531, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 27169.81, "lane": 1, "length": 283.01886}, {"time": 27547.17, "lane": 3, "length": 283.01886}, {"time": 27924.5273, "lane": 2, "length": 283.01886}, {"time": 28301.8867, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 28679.2461, "lane": 1, "length": 471.69812}, {"time": 29245.2832, "lane": 0}, {"time": 29339.623, "lane": 2}, {"time": 29433.9629, "lane": 0}, {"time": 29622.64, "lane": 3}, {"time": 29811.32, "lane": 0}, {"time": 30000, "lane": 1}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 30188.68, "lane": 3, "length": 283.01886}, {"time": 30566.0371, "lane": 2}, {"time": 30754.7168, "lane": 0}, {"time": 30943.3965, "lane": 2}, {"time": 31132.0762, "lane": 0}, {"time": 31320.7539, "lane": 2}, {"time": 31509.4336, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 31698.1133, "lane": 1, "length": 471.69812}, {"time": 32264.15, "lane": 2}, {"time": 32452.83, "lane": 3}, {"time": 32641.51, "lane": 2}, {"time": 32830.1875, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 33396.2266, "lane": 7}, {"time": 33490.5664, "lane": 7}, {"time": 33584.9063, "lane": 6}, {"time": 33773.5859, "lane": 5}, {"time": 33962.2656, "lane": 4, "length": 283.01886}, {"time": 34528.3, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 35094.34, "lane": 6, "length": 283.01886}, {"time": 35471.7, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 36415.0938, "lane": 7, "length": 94.33962}, {"time": 36603.7734, "lane": 6, "length": 94.33962}, {"time": 36792.4531, "lane": 5, "length": 94.33962}, {"time": 36981.1328, "lane": 4, "length": 283.01886}, {"time": 37358.4922, "lane": 5, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 37735.8477, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 39433.96, "lane": 3}, {"time": 39528.3, "lane": 3}, {"time": 39622.64, "lane": 2}, {"time": 39811.32, "lane": 1}, {"time": 40000, "lane": 0, "length": 283.01886}, {"time": 40566.04, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 41132.0742, "lane": 2, "length": 283.01886}, {"time": 41509.4336, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 42452.832, "lane": 3, "length": 94.33962}, {"time": 42641.5078, "lane": 2, "length": 94.33962}, {"time": 42830.1875, "lane": 1, "length": 94.33962}, {"time": 43018.8672, "lane": 0, "length": 283.01886}, {"time": 43396.2266, "lane": 1, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 43773.5859, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 45283.02, "lane": 4, "length": 283.01886}, {"time": 45660.38, "lane": 5, "length": 283.01886}, {"time": 46037.7344, "lane": 6}, {"time": 46226.4141, "lane": 7}, {"time": 46415.0938, "lane": 6}, {"time": 46603.7734, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 46792.4531, "lane": 5, "length": 283.01886}, {"time": 47169.8125, "lane": 0}, {"time": 47547.168, "lane": 3}, {"time": 47924.5273, "lane": 1}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 48301.8867, "lane": 2, "length": 849.0566}, {"time": 48301.8867, "lane": 6, "length": 283.01886}, {"time": 48679.2461, "lane": 4, "length": 188.679245}, {"time": 49056.6055, "lane": 7}, {"time": 49245.28, "lane": 4}, {"time": 49339.62, "lane": 4}, {"time": 49433.96, "lane": 7}, {"time": 49622.64, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 49937.1055, "lane": 6}, {"time": 50188.68, "lane": 6}, {"time": 50440.25, "lane": 6}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 51320.7539, "lane": 0, "length": 283.01886}, {"time": 51698.1133, "lane": 1, "length": 283.01886}, {"time": 52075.4727, "lane": 2}, {"time": 52264.1523, "lane": 3}, {"time": 52452.832, "lane": 2}, {"time": 52641.5078, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 52830.1875, "lane": 1, "length": 283.01886}, {"time": 53207.5469, "lane": 4}, {"time": 53584.9063, "lane": 7}, {"time": 53962.2656, "lane": 5}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 54339.62, "lane": 6, "length": 1132.07544}, {"time": 54339.62, "lane": 2, "length": 188.679245}, {"time": 54716.98, "lane": 0, "length": 188.679245}, {"time": 55094.34, "lane": 3}, {"time": 55283.02, "lane": 0}, {"time": 55377.36, "lane": 0}, {"time": 55471.7, "lane": 3}, {"time": 55660.38, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 56037.7344, "lane": 2}, {"time": 56415.0938, "lane": 2}, {"time": 56603.7734, "lane": 2}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 57547.168, "lane": 6}, {"time": 57924.5273, "lane": 6}, {"time": 58018.8672, "lane": 7}, {"time": 58113.207, "lane": 6}, {"time": 58301.8867, "lane": 4}, {"time": 58490.5664, "lane": 6}, {"time": 58679.2461, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 58867.9258, "lane": 5}, {"time": 59056.6055, "lane": 4}, {"time": 59245.28, "lane": 7, "length": 283.01886}, {"time": 59622.64, "lane": 6}, {"time": 59811.32, "lane": 7}, {"time": 60000, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 60566.04, "lane": 2}, {"time": 60943.3945, "lane": 2}, {"time": 61037.7344, "lane": 3}, {"time": 61132.0742, "lane": 2}, {"time": 61320.7539, "lane": 0}, {"time": 61509.4336, "lane": 2}, {"time": 61698.1133, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 61886.793, "lane": 1}, {"time": 62075.4727, "lane": 0}, {"time": 62264.1523, "lane": 3, "length": 283.01886}, {"time": 62641.5078, "lane": 2}, {"time": 62830.1875, "lane": 3}, {"time": 63018.8672, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 63396.2266, "lane": 7}, {"time": 63584.9063, "lane": 7}, {"time": 63773.5859, "lane": 5, "length": 283.01886}, {"time": 64150.94, "lane": 4}, {"time": 64528.3, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 64905.66, "lane": 4}, {"time": 64905.66, "lane": 3}, {"time": 65094.34, "lane": 3}, {"time": 65283.02, "lane": 1, "length": 283.01886}, {"time": 65660.375, "lane": 0}, {"time": 65849.0547, "lane": 0}, {"time": 66037.7344, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 66415.09, "lane": 4}, {"time": 66415.09, "lane": 0}, {"time": 66603.77, "lane": 5}, {"time": 66603.77, "lane": 1}, {"time": 66981.13, "lane": 7}, {"time": 66981.13, "lane": 3}, {"time": 67358.49, "lane": 6}, {"time": 67358.49, "lane": 2}, {"time": 67735.85, "lane": 1, "length": 754.717}, {"time": 67735.85, "lane": 5, "length": 754.717}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 69622.64, "lane": 4}, {"time": 69716.9844, "lane": 4}, {"time": 69811.32, "lane": 7}, {"time": 70188.68, "lane": 5}, {"time": 70377.36, "lane": 4}, {"time": 70566.04, "lane": 6}, {"time": 70754.72, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 71132.08, "lane": 6}, {"time": 71226.4141, "lane": 7}, {"time": 71320.76, "lane": 5}, {"time": 71509.44, "lane": 4}, {"time": 71698.11, "lane": 6}, {"time": 71886.79, "lane": 7}, {"time": 72075.47, "lane": 4}, {"time": 72264.15, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 72452.83, "lane": 6, "length": 283.01886}, {"time": 72830.19, "lane": 4, "length": 283.01886}, {"time": 73207.55, "lane": 7, "length": 283.01886}, {"time": 73584.91, "lane": 4}, {"time": 73773.5859, "lane": 5, "length": 566.0377}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 74528.3047, "lane": 4}, {"time": 74716.9844, "lane": 7}, {"time": 74905.6641, "lane": 4}, {"time": 75094.3359, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 75660.375, "lane": 0}, {"time": 75754.72, "lane": 0}, {"time": 75849.0547, "lane": 3}, {"time": 76226.4141, "lane": 1}, {"time": 76415.09, "lane": 0}, {"time": 76603.77, "lane": 2}, {"time": 76792.45, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 77169.81, "lane": 2}, {"time": 77264.15, "lane": 3}, {"time": 77358.49, "lane": 1}, {"time": 77547.17, "lane": 0}, {"time": 77735.85, "lane": 2}, {"time": 77924.53, "lane": 3}, {"time": 78113.21, "lane": 0}, {"time": 78301.88, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 78490.56, "lane": 2, "length": 283.01886}, {"time": 78867.92, "lane": 0, "length": 283.01886}, {"time": 79245.28, "lane": 3, "length": 283.01886}, {"time": 79622.64, "lane": 0}, {"time": 79811.32, "lane": 1, "length": 566.0377}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 80566.04, "lane": 0}, {"time": 80754.72, "lane": 3}, {"time": 80943.4, "lane": 0}, {"time": 81132.08, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 81509.44, "lane": 5}, {"time": 81698.11, "lane": 5}, {"time": 81886.79, "lane": 7}, {"time": 82075.47, "lane": 7}, {"time": 82264.15, "lane": 4}, {"time": 82452.83, "lane": 7}, {"time": 82641.51, "lane": 6}, {"time": 82830.19, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 83018.87, "lane": 1}, {"time": 83207.55, "lane": 1}, {"time": 83396.23, "lane": 3}, {"time": 83584.91, "lane": 3}, {"time": 83773.5859, "lane": 0}, {"time": 83962.2656, "lane": 3}, {"time": 84150.9453, "lane": 2}, {"time": 84339.625, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 84528.3047, "lane": 6}, {"time": 84716.9844, "lane": 7}, {"time": 84905.6641, "lane": 6}, {"time": 85094.3359, "lane": 4}, {"time": 85283.0156, "lane": 6}, {"time": 85471.6953, "lane": 7}, {"time": 85660.375, "lane": 6}, {"time": 85849.0547, "lane": 4}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 86037.7344, "lane": 2}, {"time": 86226.4141, "lane": 3}, {"time": 86415.09, "lane": 2}, {"time": 86603.77, "lane": 0}, {"time": 86792.45, "lane": 2}, {"time": 86981.13, "lane": 3}, {"time": 87169.81, "lane": 2}, {"time": 87358.49, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 87547.17, "lane": 7, "length": 283.01886}, {"time": 87924.53, "lane": 4, "length": 94.33962}, {"time": 88113.21, "lane": 5, "length": 283.01886}, {"time": 88301.88, "lane": 0}, {"time": 88490.56, "lane": 4}, {"time": 88490.56, "lane": 3}, {"time": 88679.24, "lane": 5}, {"time": 88679.24, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 89056.6, "lane": 1, "length": 283.01886}, {"time": 89056.6, "lane": 7}, {"time": 89433.96, "lane": 7}, {"time": 89811.32, "lane": 5, "length": 283.01886}, {"time": 89811.32, "lane": 3}, {"time": 90000, "lane": 0}, {"time": 90188.68, "lane": 2, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 90566.04, "lane": 1, "length": 283.01886}, {"time": 90566.04, "lane": 4}, {"time": 91132.08, "lane": 7}, {"time": 91698.11, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 92075.47, "lane": 6, "length": 566.0377}, {"time": 92075.47, "lane": 2, "length": 566.0377}, {"time": 92830.19, "lane": 3, "length": 566.0377}, {"time": 92830.19, "lane": 4, "length": 566.0377}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 93773.5859, "lane": 7}, {"time": 93867.92, "lane": 7}, {"time": 93962.2656, "lane": 6}, {"time": 94150.9453, "lane": 5}, {"time": 94150.9453, "lane": 3}, {"time": 94245.28, "lane": 3}, {"time": 94339.625, "lane": 4, "length": 283.01886}, {"time": 94339.625, "lane": 2}, {"time": 94528.3047, "lane": 1}, {"time": 94716.9844, "lane": 0, "length": 283.01886}, {"time": 94905.6641, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 95283.0156, "lane": 3, "length": 283.01886}, {"time": 95471.6953, "lane": 6, "length": 283.01886}, {"time": 95849.0547, "lane": 2, "length": 283.01886}, {"time": 95849.0547, "lane": 4, "length": 283.01886}, {"time": 96226.4141, "lane": 0, "length": 283.01886}, {"time": 96226.4141, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 96603.77, "lane": 3}, {"time": 96792.45, "lane": 7, "length": 94.33962}, {"time": 96981.13, "lane": 6, "length": 94.33962}, {"time": 97169.81, "lane": 5, "length": 94.33962}, {"time": 97169.81, "lane": 3, "length": 94.33962}, {"time": 97358.49, "lane": 4, "length": 283.01886}, {"time": 97358.49, "lane": 2, "length": 94.33962}, {"time": 97547.17, "lane": 1, "length": 94.33962}, {"time": 97735.85, "lane": 0, "length": 283.01886}, {"time": 97735.85, "lane": 5, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 98113.21, "lane": 1, "length": 283.01886}, {"time": 98113.21, "lane": 4, "length": 283.01886}, {"time": 98490.56, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 99811.32, "lane": 7}, {"time": 99905.6641, "lane": 7}, {"time": 100000, "lane": 6}, {"time": 100188.68, "lane": 3}, {"time": 100188.68, "lane": 5}, {"time": 100283.016, "lane": 3}, {"time": 100377.359, "lane": 2}, {"time": 100377.359, "lane": 4, "length": 283.01886}, {"time": 100566.039, "lane": 1}, {"time": 100754.719, "lane": 0, "length": 283.01886}, {"time": 100943.4, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 101320.758, "lane": 3, "length": 283.01886}, {"time": 101509.438, "lane": 6, "length": 283.01886}, {"time": 101886.789, "lane": 2, "length": 283.01886}, {"time": 101886.789, "lane": 4, "length": 283.01886}, {"time": 102264.148, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 102830.188, "lane": 7, "length": 94.33962}, {"time": 103018.867, "lane": 6, "length": 94.33962}, {"time": 103207.547, "lane": 3, "length": 94.33962}, {"time": 103207.547, "lane": 5, "length": 94.33962}, {"time": 103396.227, "lane": 4, "length": 283.01886}, {"time": 103396.227, "lane": 2, "length": 94.33962}, {"time": 103584.906, "lane": 1, "length": 94.33962}, {"time": 103773.586, "lane": 5, "length": 283.01886}, {"time": 103773.586, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 104150.945, "lane": 4, "length": 283.01886}, {"time": 104150.945, "lane": 1, "length": 283.01886}, {"time": 104528.305, "lane": 3, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 105849.055, "lane": 6}, {"time": 106226.414, "lane": 6}, {"time": 106320.758, "lane": 7}, {"time": 106415.094, "lane": 6}, {"time": 106603.773, "lane": 4}, {"time": 106792.453, "lane": 6}, {"time": 106981.133, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 107169.813, "lane": 5}, {"time": 107358.492, "lane": 4}, {"time": 107547.172, "lane": 7, "length": 283.01886}, {"time": 107924.531, "lane": 6}, {"time": 108113.211, "lane": 7}, {"time": 108301.883, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 108867.922, "lane": 2}, {"time": 109245.281, "lane": 2}, {"time": 109339.625, "lane": 3}, {"time": 109433.961, "lane": 2}, {"time": 109622.641, "lane": 0}, {"time": 109811.32, "lane": 2}, {"time": 110000, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 110188.68, "lane": 1}, {"time": 110377.359, "lane": 0}, {"time": 110566.039, "lane": 3, "length": 283.01886}, {"time": 110943.4, "lane": 2}, {"time": 111132.078, "lane": 3}, {"time": 111320.758, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 111698.109, "lane": 7}, {"time": 111886.789, "lane": 7}, {"time": 112075.469, "lane": 5, "length": 283.01886}, {"time": 112452.828, "lane": 4}, {"time": 112830.188, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 113207.547, "lane": 4}, {"time": 113207.547, "lane": 3}, {"time": 113396.227, "lane": 3}, {"time": 113584.906, "lane": 1, "length": 283.01886}, {"time": 113962.266, "lane": 0}, {"time": 114150.945, "lane": 0}, {"time": 114339.625, "lane": 0, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 114716.984, "lane": 4}, {"time": 114716.984, "lane": 0}, {"time": 114905.664, "lane": 5}, {"time": 114905.664, "lane": 1}, {"time": 115283.016, "lane": 7}, {"time": 115283.016, "lane": 3}, {"time": 115660.375, "lane": 6}, {"time": 115660.375, "lane": 2}, {"time": 116037.734, "lane": 1, "length": 754.717}, {"time": 116037.734, "lane": 5, "length": 754.717}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 117924.531, "lane": 4}, {"time": 118301.883, "lane": 7}, {"time": 118490.563, "lane": 5}, {"time": 118679.242, "lane": 4}, {"time": 118867.922, "lane": 6}, {"time": 119056.6, "lane": 7}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 119245.281, "lane": 6, "length": 283.01886}, {"time": 119622.641, "lane": 7, "length": 283.01886}, {"time": 120000, "lane": 4, "length": 283.01886}, {"time": 120377.359, "lane": 7, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 120754.719, "lane": 6, "length": 754.717}, {"time": 120943.4, "lane": 0}, {"time": 121320.758, "lane": 3}, {"time": 121509.438, "lane": 1}, {"time": 121698.109, "lane": 0}, {"time": 121886.789, "lane": 2}, {"time": 122075.469, "lane": 3}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 122264.148, "lane": 2, "length": 283.01886}, {"time": 122641.508, "lane": 3, "length": 283.01886}, {"time": 123018.867, "lane": 0, "length": 283.01886}, {"time": 123396.227, "lane": 3, "length": 754.717}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 123773.586, "lane": 5, "length": 94.33962}, {"time": 124150.945, "lane": 7}, {"time": 124339.625, "lane": 7}, {"time": 124528.305, "lane": 6, "length": 283.01886}, {"time": 124905.664, "lane": 4, "length": 283.01886}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 125283.016, "lane": 5, "length": 283.01886}, {"time": 125283.016, "lane": 2}, {"time": 125471.695, "lane": 3}, {"time": 125660.375, "lane": 1, "length": 283.01886}, {"time": 126037.734, "lane": 3}, {"time": 126226.414, "lane": 0}, {"time": 126415.094, "lane": 0}]
+		},
+		{
+			"beats": 4,
+			"mustHit": false,
+			"notes": [{"time": 126792.453, "lane": 4}, {"time": 126792.453, "lane": 0}, {"time": 126981.133, "lane": 5}, {"time": 126981.133, "lane": 1}, {"time": 127358.492, "lane": 7}, {"time": 127358.492, "lane": 3}, {"time": 127735.852, "lane": 6}, {"time": 127735.852, "lane": 2}, {"time": 128113.211, "lane": 5, "length": 377.3585}, {"time": 128113.211, "lane": 1, "length": 377.3585}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 129056.6, "lane": 0}, {"time": 129245.281, "lane": 3}, {"time": 129433.961, "lane": 0}, {"time": 129622.641, "lane": 1}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": [{"time": 129811.32, "lane": 2}]
+		},
+		{
+			"beats": 4,
+			"mustHit": true,
+			"notes": []
+		}
+	],
+	"events": []
+}

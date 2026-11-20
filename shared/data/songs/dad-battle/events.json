@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 32000, "name": "Dadbattle Spotlight", "values": ["1", ""]},
+		{"time": 42666.6666666667, "name": "Dadbattle Spotlight", "values": ["3", ""]},
+		{"time": 48333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 48666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 49000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 49666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 50000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 50333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 51000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 51333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 51666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 52000, "name": "Add Camera Zoom", "values": ["0.015", "0"]},
+		{"time": 52166.6666666667, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 52333.3333333334, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 52500, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 52666.6666666667, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 52833.3333333334, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 52916.6666666667, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 53000, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 53083.3333333334, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 53166.6666666667, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 53250, "name": "Add Camera Zoom", "values": ["0.03", ""]},
+		{"time": 53333.3333333334, "name": "Dadbattle Spotlight", "values": ["0", ""]}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"name": "Week 1",
+	"title": "Daddy Dearest",
+	"background": "stage",
+	"characters": {"opponent": "dad", "player": "bf", "girlfriend": "gf"},
+	"songs": [
+		{"name": "Bopeebo", "icon": "dad", "color": "#9271FD"},
+		{"name": "Fresh", "icon": "dad", "color": "#9271FD"},
+		{"name": "Dad Battle", "icon": "dad", "color": "#9271FD"}
+	],
+	"unlock": {
+		"after": "tutorial"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"name": "Weekend 1",
+	"title": "Due Debts",
+	"background": "phillystreets",
+	"characters": {"opponent": "darnell", "player": "pico-player", "girlfriend": "nene"},
+	"songs": [
+		{"name": "Darnell", "icon": "darnell", "color": "#413CAE"},
+		{"name": "Lit Up", "icon": "darnell", "color": "#413CAE"},
+		{"name": "2Hot", "icon": "darnell", "color": "#413CAE"},
+		{"name": "Blazin", "icon": "darnell", "color": "#413CAE"}
+	],
+	"difficulties": ["Easy", "Normal", "Hard"]
+}

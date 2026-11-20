@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 56000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 56666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 57333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 58000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 58666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 59000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 59333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 59666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 60000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 60333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 60666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 61000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 61333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 62000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 62666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 63333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 64000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 64333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 64666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 65000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 65333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 65666.6666666667, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 66000, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 66333.3333333334, "name": "Add Camera Zoom", "values": ["", ""]},
+		{"time": 77333.3333333333, "name": "Kill Henchmen", "values": ["", ""]},
+		{"time": 98666.6666666666, "name": "Kill Henchmen", "values": ["", ""]}
+	]
+}

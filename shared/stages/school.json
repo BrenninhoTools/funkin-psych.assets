@@ -1,0 +1,322 @@
+{
+	"version": "2.0.0",
+	"directory": "week6",
+	"zoom": 1.05,
+	"ui": "pixel",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				970,
+				320
+			],
+			"camera": [
+				-100,
+				-100
+			]
+		},
+		"girlfriend": {
+			"position": [
+				580,
+				430
+			],
+			"camera": [
+				0,
+				0
+			],
+			"defaultCharacter": "gf-pixel"
+		},
+		"opponent": {
+			"position": [
+				100,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/weeb/weebSky": 3,
+		"images/weeb/weebSchool": 3,
+		"images/weeb/weebStreet": 3,
+		"images/weeb/weebTrees": 3,
+		"images/weeb/weebTreesBack": 2,
+		"images/weeb/petals": 2,
+		"images/weeb/bgFreaks": 2
+	},
+	"editor": {
+		"boyfriend": "bf-pixel",
+		"girlfriend": "gf-pixel",
+		"opponent": "senpai"
+	},
+	"objects": [
+		{
+			"type": "sprite",
+			"name": "sky",
+			"render": {
+				"image": "weeb/weebSky",
+				"antialiasing": false
+			},
+			"position": [
+				-462,
+				0
+			],
+			"scroll": [
+				0.1,
+				0.1
+			],
+			"scale": [
+				6,
+				6
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "school",
+			"render": {
+				"image": "weeb/weebSchool",
+				"antialiasing": false
+			},
+			"position": [
+				-800,
+				0
+			],
+			"scroll": [
+				0.6,
+				0.9
+			],
+			"scale": [
+				6,
+				6
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "street",
+			"render": {
+				"image": "weeb/weebStreet",
+				"antialiasing": false
+			},
+			"position": [
+				-662,
+				0
+			],
+			"scroll": [
+				0.95,
+				0.95
+			],
+			"scale": [
+				6,
+				6
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "fgTrees",
+			"render": {
+				"image": "weeb/weebTreesBack",
+				"antialiasing": false
+			},
+			"position": [
+				-270,
+				130
+			],
+			"scroll": [
+				0.9,
+				0.9
+			],
+			"filters": 2,
+			"scale": [
+				4.8,
+				4.8
+			]
+		},
+		{
+			"type": "animatedSprite",
+			"name": "bgTrees",
+			"render": {
+				"image": "weeb/weebTrees",
+				"antialiasing": false,
+				"type": "packer"
+			},
+			"position": [
+				-580,
+				-800
+			],
+			"scroll": [
+				0.85,
+				0.85
+			],
+			"graphicSize": [
+				2612
+			],
+			"animations": [
+				{
+					"name": "treeLoop",
+					"indices": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"fps": 12,
+					"loop": true
+				}
+			],
+			"firstAnimation": "treeLoop"
+		},
+		{
+			"type": "animatedSprite",
+			"name": "petals",
+			"render": {
+				"image": "weeb/petals",
+				"antialiasing": false
+			},
+			"position": [
+				-200,
+				-40
+			],
+			"scroll": [
+				0.85,
+				0.85
+			],
+			"graphicSize": [
+				1866
+			],
+			"animations": [
+				{
+					"name": "petals",
+					"prefix": "PETALS ALL",
+					"fps": 24,
+					"loop": true
+				}
+			],
+			"firstAnimation": "petals",
+			"filters": 2
+		},
+		{
+			"type": "backgroundGirls",
+			"name": "bgGirls",
+			"position": [
+				-100,
+				190
+			],
+			"scroll": [
+				0.9,
+				0.9
+			],
+			"filters": 2
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"behaviors": [
+		{
+			"on": "create",
+			"actions": [
+				{
+					"action": "gameOver",
+					"sound": "fnf_loss_sfx-pixel",
+					"loop": "gameOver-pixel",
+					"end": "gameOverEnd-pixel",
+					"character": "bf-pixel-dead"
+				}
+			]
+		},
+		{
+			"on": "create",
+			"songs": [
+				"senpai"
+			],
+			"actions": [
+				{
+					"action": "music",
+					"music": "Lunchbox",
+					"volume": 0.8,
+					"fadeIn": 1
+				}
+			]
+		},
+		{
+			"on": "create",
+			"songs": [
+				"roses"
+			],
+			"actions": [
+				{
+					"action": "sound",
+					"sound": "ANGRY_TEXT_BOX"
+				}
+			]
+		},
+		{
+			"on": "create",
+			"songs": [
+				"roses"
+			],
+			"storyMode": true,
+			"seenCutscene": false,
+			"actions": [
+				{
+					"action": "sound",
+					"sound": "ANGRY"
+				}
+			]
+		},
+		{
+			"on": "beat",
+			"actions": [
+				{
+					"action": "dance",
+					"target": "bgGirls"
+				}
+			]
+		},
+		{
+			"on": "event",
+			"event": "BG Freaks Expression",
+			"actions": [
+				{
+					"action": "call",
+					"target": "bgGirls",
+					"method": "swapDanceType"
+				}
+			]
+		}
+	],
+	"modules": [
+		{
+			"name": "schoolDialogue",
+			"options": {
+				"intro": "fade",
+				"blackSongs": [
+					"senpai"
+				]
+			}
+		}
+	]
+}

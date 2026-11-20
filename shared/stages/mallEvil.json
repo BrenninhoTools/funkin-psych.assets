@@ -1,0 +1,186 @@
+{
+	"version": "2.0.0",
+	"directory": "week5",
+	"zoom": 1.05,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				1090,
+				100
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"girlfriend": {
+			"position": [
+				400,
+				130
+			],
+			"camera": [
+				0,
+				0
+			],
+			"defaultCharacter": "gf-christmas"
+		},
+		"opponent": {
+			"position": [
+				100,
+				20
+			],
+			"camera": [
+				0,
+				0
+			]
+		}
+	},
+	"preload": {
+		"images/christmas/evilBG": 3,
+		"images/christmas/evilSnow": 3,
+		"images/christmas/evilTree": 3
+	},
+	"editor": {
+		"boyfriend": "bf-christmas",
+		"girlfriend": "gf-christmas",
+		"opponent": "monster-christmas"
+	},
+	"objects": [
+		{
+			"type": "sprite",
+			"name": "evilBG",
+			"image": "christmas/evilBG",
+			"position": [
+				-400,
+				-500
+			],
+			"scroll": [
+				0.2,
+				0.2
+			],
+			"scale": [
+				0.8,
+				0.8
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "evilTree",
+			"image": "christmas/evilTree",
+			"position": [
+				300,
+				-300
+			],
+			"scroll": [
+				0.2,
+				0.2
+			]
+		},
+		{
+			"type": "sprite",
+			"name": "evilSnow",
+			"image": "christmas/evilSnow",
+			"position": [
+				-500,
+				700
+			]
+		},
+		{
+			"type": "girlfriend"
+		},
+		{
+			"type": "opponent"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"type": "square",
+			"name": "blackScreen",
+			"position": [
+				0,
+				0
+			],
+			"scale": [
+				2560,
+				1440
+			],
+			"scroll": [
+				0,
+				0
+			],
+			"color": "#000000",
+			"visible": false
+		}
+	],
+	"behaviors": [
+		{
+			"on": "cutscene",
+			"songs": [
+				"winter-horrorland"
+			],
+			"actions": [
+				{
+					"action": "hud",
+					"visible": false
+				},
+				{
+					"action": "cutscene"
+				},
+				{
+					"action": "sound",
+					"sound": "Lights_Turn_On"
+				},
+				{
+					"action": "cameraZoom",
+					"zoom": 1.5
+				},
+				{
+					"action": "focus",
+					"point": [
+						400,
+						-2050
+					]
+				},
+				{
+					"action": "set",
+					"target": "blackScreen",
+					"props": {
+						"visible": true,
+						"alpha": 1
+					}
+				},
+				{
+					"action": "tween",
+					"target": "blackScreen",
+					"props": {
+						"alpha": 0
+					},
+					"duration": 0.7,
+					"hideOnComplete": true
+				},
+				{
+					"action": "hud",
+					"visible": true,
+					"delay": 0.8
+				},
+				{
+					"action": "tween",
+					"target": "camGame",
+					"props": {
+						"zoom": "$defaultCamZoom"
+					},
+					"duration": 2.5,
+					"ease": "quadInOut",
+					"delay": 0.8
+				},
+				{
+					"action": "startCountdown",
+					"delay": 3.3
+				}
+			]
+		}
+	]
+}

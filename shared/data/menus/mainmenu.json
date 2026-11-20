@@ -1,0 +1,31 @@
+{
+	"version": "1.0.0",
+	"music": {"maxVolume": 0.8, "fadeSpeed": 0.5},
+	"sounds": {"scroll": "scrollMenu", "confirm": "confirmMenu", "cancel": "cancelMenu"},
+	"camera": {"followLerp": 0.15},
+	"background": {"image": "menuBG", "position": [-80, 0], "scale": 1.175, "scroll": [0, 0.25], "center": true},
+	"flash": {
+		"image": "menuDesat",
+		"position": [-80, 0],
+		"scale": 1.175,
+		"scroll": [0, 0.25],
+		"center": true,
+		"color": "#FD719B",
+		"duration": 1.1,
+		"interval": 0.15
+	},
+	"layout": {"startY": 90, "spacing": 140, "centerX": true, "balance": 4},
+	"items": [
+		{"id": "story_mode", "target": "story"},
+		{"id": "freeplay", "target": "freeplay"},
+		{"id": "mods", "target": "mods", "requires": "mods"},
+		{"id": "credits", "target": "credits"}
+	],
+	"left": {"id": "achievements", "target": "achievements", "position": [60, 490], "requires": "achievements"},
+	"right": {"id": "options", "target": "options", "position": [-60, 490], "alignRight": true},
+	"texts": [
+		{"text": "Psych Engine v{psychVersion}", "position": [12, 676], "size": 16, "alignment": "left", "width": -1},
+		{"text": "Friday Night Funkin' v{fnfVersion}", "position": [12, 696], "size": 16, "alignment": "left", "width": -1}
+	],
+	"sprites": []
+}

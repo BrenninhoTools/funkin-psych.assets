@@ -1,0 +1,96 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": "characters/tankmanCaptain",
+		"scale": 1,
+		"flipX": true,
+		"antialiasing": true
+	},
+	"position": [0, 240],
+	"camera": [0, 0],
+	"healthIcon": {
+		"id": "tankman",
+		"color": "#E1E1E1"
+	},
+	"singDuration": 4,
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "Tankman Idle Dance",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "Tankman UP note 1",
+			"fps": 24,
+			"loop": false,
+			"offset": [28, 54]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "Tankman DOWN note 1",
+			"fps": 24,
+			"loop": false,
+			"offset": [66, -107]
+		},
+		{
+			"name": "singUP-alt",
+			"prefix": "TANKMAN UGH",
+			"fps": 24,
+			"loop": false,
+			"offset": [-12, -8]
+		},
+		{
+			"name": "singDOWN-alt",
+			"prefix": "PRETTY GOOD tankman",
+			"fps": 24,
+			"loop": false,
+			"offset": [101, 16]
+		},
+		{
+			"name": "singUPmiss",
+			"prefix": "Tankman UP note MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [28, 54]
+		},
+		{
+			"name": "singDOWNmiss",
+			"prefix": "Tankman DOWN note MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [66, -107]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "Tankman Right Note 1",
+			"fps": 24,
+			"loop": false,
+			"offset": [-21, -11]
+		},
+		{
+			"name": "singRIGHTmiss",
+			"prefix": "Tankman Right Note MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [-16, -11]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "Tankman Note Left 1",
+			"fps": 24,
+			"loop": false,
+			"offset": [91, -23]
+		},
+		{
+			"name": "singLEFTmiss",
+			"prefix": "Tankman Note Left MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [91, -23]
+		}
+	]
+}

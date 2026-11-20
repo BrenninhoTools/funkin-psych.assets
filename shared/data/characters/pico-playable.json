@@ -1,0 +1,127 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": ["characters/Pico_FNF_assetss", "characters/picoAnims/Pico_Intro", "characters/picoAnims/Pico_Shooting"],
+		"scale": 1,
+		"flipX": true,
+		"antialiasing": true
+	},
+	"position": [0, 300],
+	"camera": [200, 40],
+	"healthIcon": {
+		"id": "pico",
+		"color": "#B7D855"
+	},
+	"singDuration": 4,
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "Pico Idle Dance",
+			"fps": 24,
+			"loop": false,
+			"offset": [3, 0]
+		},
+		{
+			"name": "singUP",
+			"prefix": "pico Up note0",
+			"fps": 24,
+			"loop": false,
+			"offset": [21, 27]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "Pico Down Note0",
+			"fps": 24,
+			"loop": false,
+			"offset": [84, -80]
+		},
+		{
+			"name": "singDOWNmiss",
+			"prefix": "Pico Down Note MISS",
+			"fps": 24,
+			"loop": false,
+			"offset": [80, -38]
+		},
+		{
+			"name": "singUPmiss",
+			"prefix": "pico Up note miss",
+			"fps": 24,
+			"loop": false,
+			"offset": [28, 67]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "Pico Note Right0",
+			"fps": 24,
+			"loop": false,
+			"offset": [-48, 2]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "Pico NOTE LEFT0",
+			"fps": 24,
+			"loop": false,
+			"offset": [85, -10]
+		},
+		{
+			"name": "singRIGHTmiss",
+			"prefix": "Pico Note Right Miss",
+			"fps": 24,
+			"loop": false,
+			"offset": [-45, 50]
+		},
+		{
+			"name": "singLEFTmiss",
+			"prefix": "Pico NOTE LEFT miss",
+			"fps": 24,
+			"loop": false,
+			"offset": [83, 28]
+		},
+		{
+			"name": "shoot",
+			"prefix": "Pico Shoot Hip Full0",
+			"fps": 24,
+			"loop": false,
+			"offset": [256, 232]
+		},
+		{
+			"name": "shootMISS",
+			"prefix": "Pico Hit Can0",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "cock",
+			"prefix": "Pico Reload0",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "intro1",
+			"prefix": "Pico Gets Pissed0",
+			"fps": 24,
+			"loop": false,
+			"offset": [60, 0]
+		},
+		{
+			"name": "cockCutscene",
+			"prefix": "cutscene cock0",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "intro2",
+			"prefix": "shoot and return0",
+			"fps": 24,
+			"loop": false,
+			"offset": [255, 231]
+		}
+	],
+	"editor": {
+		"isPlayer": true
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": "characters/bfPixelsDEAD",
+		"scale": 6,
+		"flipX": true,
+		"antialiasing": false
+	},
+	"position": [0, 350],
+	"camera": [50, -60],
+	"healthIcon": {
+		"id": "bf-pixel",
+		"color": "#7BD6F6"
+	},
+	"singDuration": 4,
+	"animations": [
+		{
+			"name": "deathConfirm",
+			"prefix": "RETRY CONFIRM",
+			"fps": 24,
+			"loop": false,
+			"offset": [-26, -12]
+		},
+		{
+			"name": "deathLoop",
+			"prefix": "Retry Loop",
+			"fps": 24,
+			"loop": true,
+			"offset": [-30, -12]
+		},
+		{
+			"name": "firstDeath",
+			"prefix": "BF Dies pixel",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		}
+	]
+}

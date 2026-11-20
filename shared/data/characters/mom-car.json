@@ -1,0 +1,94 @@
+{
+	"version": "2.0.0",
+	"render": {
+		"type": "auto",
+		"image": "characters/momCar",
+		"scale": 1,
+		"flipX": false,
+		"antialiasing": true
+	},
+	"position": [0, 0],
+	"camera": [0, 0],
+	"healthIcon": {
+		"id": "mom",
+		"color": "#D8558E"
+	},
+	"singDuration": 4,
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "Mom Idle",
+			"fps": 24,
+			"loop": false,
+			"offset": [0, 0]
+		},
+		{
+			"name": "singLEFT",
+			"prefix": "Mom Left Pose",
+			"fps": 24,
+			"loop": false,
+			"offset": [250, -23]
+		},
+		{
+			"name": "singRIGHT",
+			"prefix": "Mom Pose Left",
+			"fps": 24,
+			"loop": false,
+			"offset": [10, -60]
+		},
+		{
+			"name": "singDOWN",
+			"prefix": "MOM DOWN POSE",
+			"fps": 24,
+			"loop": false,
+			"offset": [20, -160]
+		},
+		{
+			"name": "singUP",
+			"prefix": "Mom Up Pose",
+			"fps": 24,
+			"loop": false,
+			"offset": [14, 71]
+		},
+		{
+			"name": "idle-loop",
+			"prefix": "Mom Idle",
+			"fps": 24,
+			"loop": true,
+			"offset": [0, 0],
+			"indices": [10, 11, 12, 13]
+		},
+		{
+			"name": "singLEFT-loop",
+			"prefix": "Mom Left Pose",
+			"fps": 24,
+			"loop": true,
+			"offset": [250, -23],
+			"indices": [6, 7, 8, 9]
+		},
+		{
+			"name": "singUP-loop",
+			"prefix": "Mom Up Pose",
+			"fps": 24,
+			"loop": true,
+			"offset": [14, 71],
+			"indices": [11, 12, 13, 14]
+		},
+		{
+			"name": "singRIGHT-loop",
+			"prefix": "Mom Pose Left",
+			"fps": 24,
+			"loop": true,
+			"offset": [10, -60],
+			"indices": [6, 7, 8, 9]
+		},
+		{
+			"name": "singDOWN-loop",
+			"prefix": "MOM DOWN POSE",
+			"fps": 24,
+			"loop": true,
+			"offset": [20, -160],
+			"indices": [11, 12, 13, 14]
+		}
+	]
+}

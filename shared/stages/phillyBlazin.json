@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"directory": "weekend1",
+	"zoom": 0.75,
+	"ui": "normal",
+	"cameraSpeed": 1,
+	"characters": {
+		"boyfriend": {
+			"position": [
+				900,
+				800
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"girlfriend": {
+			"position": [
+				470,
+				595
+			],
+			"camera": [
+				0,
+				0
+			]
+		},
+		"opponent": {
+			"position": [
+				300,
+				800
+			],
+			"camera": [
+				50,
+				-455
+			]
+		}
+	},
+	"preload": {
+		"images/abot/": 3,
+		"images/abot/systemEyes/": 3,
+		"images/abot/abotSystem/": 3,
+		"images/phillyBlazin/streetBlur": 3,
+		"images/phillyBlazin/skyBlur": 2,
+		"images/phillyBlazin/lightning": 2,
+		"sounds/lightning/": 3
+	},
+	"editor": {
+		"boyfriend": "pico-playable",
+		"girlfriend": "nene",
+		"opponent": "darnell"
+	},
+	"modules": [
+		"phillyBlazin"
+	]
+}

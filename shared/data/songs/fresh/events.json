@@ -1,0 +1,9 @@
+{
+	"version": "2.0.0",
+	"events": [
+		{"time": 8000, "name": "Set GF Speed", "values": ["2", ""]},
+		{"time": 24000, "name": "Set GF Speed", "values": ["1", ""]},
+		{"time": 40000, "name": "Set GF Speed", "values": ["2", ""]},
+		{"time": 56000, "name": "Set GF Speed", "values": ["1", ""]}
+	]
+}
