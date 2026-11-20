@@ -49,7 +49,8 @@ storyname_weekend1: "Dívidas Fora do Prazo"
 
 // Freeplay
 personal_best: "MELHOR PONTUAÇÃO: {1} ({2}%)"
-freeplay_tip: "Aperte SPACE para ouvir a Música / Aperte CTRL para abrir o Menu de Modificadores / Aperte RESET para limpar sua pontuação."
+freeplay_hint: "[CTRL] Modificadores • [RESET] Limpar Pontuação • [F] Favoritar • [Q/E] Ordenar"
+freeplay_hint_mobile: "Arraste para rolar • Toque duas vezes numa música para jogar • Deslize para os lados para mudar a dificuldade"
 
 musicplayer_playing: "MÚSICA: {1}"
 musicplayer_paused: "MÚSICA: {1} (PAUSADO)"

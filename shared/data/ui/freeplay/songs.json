@@ -1,0 +1,255 @@
+{
+	"version": "1.0.0",
+	"songs": {
+		"2hot": {
+			"album": "volume3",
+			"ratings": {
+				"easy": 3,
+				"normal": 4,
+				"hard": 5
+			}
+		},
+		"blammed": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 11,
+				"nightmare": 12
+			}
+		},
+		"blazin": {
+			"album": "volume3",
+			"ratings": {
+				"easy": 3,
+				"normal": 4,
+				"hard": 5
+			}
+		},
+		"bopeebo": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 1,
+				"hard": 2,
+				"erect": 7,
+				"nightmare": 8
+			}
+		},
+		"cocoa": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2,
+				"erect": 7,
+				"nightmare": 8
+			}
+		},
+		"dadbattle": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 9,
+				"nightmare": 10
+			}
+		},
+		"darnell": {
+			"album": "volume3",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"eggnog": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 6,
+				"nightmare": 7
+			}
+		},
+		"fresh": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 1,
+				"hard": 2,
+				"erect": 6,
+				"nightmare": 7
+			}
+		},
+		"guns": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 3,
+				"normal": 4,
+				"hard": 5
+			}
+		},
+		"high": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"litup": {
+			"album": "volume3",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4
+			}
+		},
+		"milf": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4
+			}
+		},
+		"monster": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2
+			}
+		},
+		"phillynice": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"pico": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2,
+				"erect": 9,
+				"nightmare": 10
+			}
+		},
+		"roses": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"satinpanties": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2,
+				"erect": 11,
+				"nightmare": 12
+			}
+		},
+		"senpai": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 3,
+				"erect": 6,
+				"nightmare": 7
+			}
+		},
+		"south": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"spaghetti": {
+			"album": "spaghetti",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 5
+			}
+		},
+		"spookeez": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 1,
+				"normal": 1,
+				"hard": 2,
+				"erect": 11,
+				"nightmare": 12
+			}
+		},
+		"stress": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 3,
+				"normal": 4,
+				"hard": 5
+			}
+		},
+		"thorns": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4,
+				"erect": 9,
+				"nightmare": 10
+			}
+		},
+		"tutorial": {
+			"album": "volume1",
+			"ratings": {
+				"easy": 0,
+				"normal": 0,
+				"hard": 1
+			}
+		},
+		"ugh": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 2,
+				"normal": 3,
+				"hard": 4,
+				"erect": 8,
+				"nightmare": 9
+			}
+		},
+		"winterhorrorland": {
+			"album": "volume2",
+			"ratings": {
+				"easy": 1,
+				"normal": 2,
+				"hard": 2
+			}
+		}
+	}
+}
