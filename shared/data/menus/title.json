@@ -1,47 +1,213 @@
 {
 	"version": "1.0.0",
-	"music": {"name": "freakyMenu", "bpm": 102, "volume": 0.7, "fadeIn": 4},
-	"background": {"image": "", "color": null},
+	"music": {
+		"name": "freakyMenu",
+		"bpm": 102,
+		"volume": 0.7,
+		"fadeIn": 4
+	},
+	"background": {
+		"image": "",
+		"color": null
+	},
 	"logo": {
-		"render": {"type": "sparrow", "image": "title/logoBumpin"},
-		"position": [-150, -100],
-		"animation": {"prefix": "logo bumpin", "fps": 24}
+		"render": {
+			"type": "sparrow",
+			"image": "logoBumpin"
+		},
+		"position": [
+			-150,
+			-100
+		],
+		"animation": {
+			"prefix": "logo bumpin",
+			"fps": 24
+		}
 	},
 	"character": {
-		"render": {"type": "sparrow", "image": "title/gfDanceTitle"},
-		"position": [512, 40],
+		"render": {
+			"type": "sparrow",
+			"image": "gfDanceTitle"
+		},
+		"position": [
+			512,
+			50.4
+		],
 		"animation": "gfDance",
 		"fps": 24,
 		"idle": false,
-		"danceLeft": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-		"danceRight": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+		"danceLeft": [
+			30,
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14
+		],
+		"danceRight": [
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29
+		]
 	},
 	"enter": {
-		"render": {"type": "sparrow", "image": "title/titleEnter"},
-		"position": [100, 576],
-		"colors": ["#33FFFF", "#3333CC"],
-		"alphas": [1, 0.64]
+		"render": {
+			"type": "atlas",
+			"image": "title-screen-text"
+		},
+		"position": [
+			100,
+			576
+		],
+		"mobilePosition": [
+			50,
+			576
+		],
+		"idle": "Idle",
+		"press": "Confirm",
+		"colors": [
+			"#33FFFF",
+			"#3333CC"
+		],
+		"alphas": [
+			1,
+			0.64
+		]
 	},
-	"flash": {"color": "#FFFFFF", "duration": 4},
-	"confirm": {"sound": "confirmMenu", "volume": 0.7, "delay": 1, "flash": 1},
+	"flash": {
+		"color": "#FFFFFF",
+		"duration": 4
+	},
+	"confirm": {
+		"sound": "confirmMenu",
+		"volume": 0.7,
+		"delay": 1,
+		"flash": 1
+	},
 	"introTexts": "data/introText.txt",
 	"intro": [
-		{"beat": 2, "action": "create", "text": ["Psych Engine by"], "offset": 40},
-		{"beat": 4, "action": "add", "text": ["Shadow Mario", "Riveren"], "offset": 40},
-		{"beat": 5, "action": "clear"},
-		{"beat": 6, "action": "create", "text": ["Not associated", "with"], "offset": -40},
-		{"beat": 8, "action": "add", "text": ["newgrounds"], "offset": -40, "show": "newgrounds"},
-		{"beat": 9, "action": "clear", "hide": "newgrounds"},
-		{"beat": 10, "action": "create", "text": ["{wacky0}"]},
-		{"beat": 12, "action": "add", "text": ["{wacky1}"]},
-		{"beat": 13, "action": "clear"},
-		{"beat": 14, "action": "add", "text": ["Friday"]},
-		{"beat": 15, "action": "add", "text": ["Night"]},
-		{"beat": 16, "action": "add", "text": ["Funkin"]},
-		{"beat": 17, "action": "skip"}
+		{
+			"beat": 2,
+			"action": "create",
+			"text": [
+				"The",
+				"Funkin Crew Inc"
+			]
+		},
+		{
+			"beat": 4,
+			"action": "add",
+			"text": [
+				"presents"
+			]
+		},
+		{
+			"beat": 5,
+			"action": "clear"
+		},
+		{
+			"beat": 6,
+			"action": "create",
+			"text": [
+				"In association",
+				"with"
+			]
+		},
+		{
+			"beat": 8,
+			"action": "add",
+			"text": [
+				"newgrounds"
+			],
+			"show": "newgrounds"
+		},
+		{
+			"beat": 9,
+			"action": "clear",
+			"hide": "newgrounds"
+		},
+		{
+			"beat": 10,
+			"action": "create",
+			"text": [
+				"{wacky0}"
+			]
+		},
+		{
+			"beat": 12,
+			"action": "add",
+			"text": [
+				"{wacky1}"
+			]
+		},
+		{
+			"beat": 13,
+			"action": "clear"
+		},
+		{
+			"beat": 14,
+			"action": "add",
+			"text": [
+				"Friday"
+			]
+		},
+		{
+			"beat": 15,
+			"action": "add",
+			"text": [
+				"Night"
+			]
+		},
+		{
+			"beat": 16,
+			"action": "add",
+			"text": [
+				"Funkin"
+			]
+		},
+		{
+			"beat": 17,
+			"action": "skip"
+		}
 	],
 	"introSprites": [
-		{"name": "newgrounds", "image": "newgrounds_logo", "position": [0, 374.4], "scale": [0.8, 0.8], "centerX": true}
+		{
+			"name": "newgrounds",
+			"image": "newgrounds_logo",
+			"position": [
+				0,
+				374.4
+			],
+			"scale": [
+				0.8,
+				0.8
+			],
+			"centerX": true,
+			"randomVariants": true
+		}
 	],
-	"sprites": []
+	"sprites": [],
+	"logoOnTop": false
 }
