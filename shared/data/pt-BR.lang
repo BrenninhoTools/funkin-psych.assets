@@ -49,8 +49,8 @@ storyname_weekend1: "Dívidas Fora do Prazo"
 
 // Freeplay
 personal_best: "MELHOR PONTUAÇÃO: {1} ({2}%)"
-freeplay_hint: "[CTRL] Modificadores • [RESET] Limpar Pontuação • [F] Favoritar • [Q/E] Ordenar"
-freeplay_hint_mobile: "Arraste para rolar • Toque duas vezes numa música para jogar • Deslize para os lados para mudar a dificuldade"
+freeplay_hint: "[TAB] Personagens • [CTRL] Modificadores • [RESET] Limpar • [F] Favoritar • [Q/E] Ordenar"
+freeplay_hint_mobile: "Arraste para rolar • Toque duas vezes para jogar • Deslize para mudar a dificuldade • Toque no DJ para trocar de personagem"
 
 musicplayer_playing: "MÚSICA: {1}"
 musicplayer_paused: "MÚSICA: {1} (PAUSADO)"
